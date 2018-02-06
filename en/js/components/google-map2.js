@@ -2,10 +2,10 @@
 
 jQuery(document).ready(function($){
   //set your google maps parameters
-  var latitude = 40.206853,
-      longitude = 44.499198,
+var latitude = 40.173144,
+      longitude = 44.493727,
       map_zoom = 15;
-
+    
   //google map custom marker icon - .png fallback for IE11
   var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
   var marker_url = ( is_internetExplorer11 ) ? 'img/widgets/gmap2/cd-icon-location.png' : 'img/widgets/gmap2/cd-icon-location.svg';
