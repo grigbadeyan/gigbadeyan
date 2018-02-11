@@ -1,6 +1,4 @@
 
-@import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
 html {
 background-color: rgba(221, 221, 221, 0.77);
     color: #737f8a;
@@ -557,6 +555,7 @@ a:focus, a:hover {
           align-items: center;
 }
 
+
 .hero-area:before {
   content: '';
   background: rgba(0, 0, 0, 0.63);
@@ -568,13 +567,6 @@ a:focus, a:hover {
 }
 
 
-
-
-@media (max-width: 480px) {
-  .hero-area .header {
-    font-size: 10px;
-  }
-}
 
 
 .hero-area .block .btn-transparent {
@@ -1285,6 +1277,10 @@ line-height: 25px
       .section-2 p {
         line-height: 2;
        }
+}@media only screen and (max-width: 400px) {
+      .section-2 p {
+margin-top: 0       
+    }
 }
 
 .bg-one {
@@ -1348,9 +1344,18 @@ line-height: 25px
     background-color: white;
 }
 
-.hero-area p.header {
+.hero-area p{
     font-size: 46px
 }
+
+
+@media only screen and (max-width: 700px) {
+      .hero-area p {
+          font-size: 25px
+    }
+}
+
+
 p, h1, h2, h3, h4, h5, h6, span{
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
