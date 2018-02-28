@@ -1327,7 +1327,8 @@ a:hover {
     }
     .banner {
         margin-top: 0;
-        border-radius: 0
+        border-radius: 0;
+
     }
     .ar-logo img {
         width: 15vh;
@@ -1345,9 +1346,8 @@ a:hover {
 
 @media only screen and (max-width: 414px) {
     #rep-square {
-        background: none;
-        background-color: #79d2fc;
-        height: auto
+        height: auto;
+            background-image: url(../images/about/about-3%20mini.png)
     }
     .section .text {
         width: 100%
@@ -1374,9 +1374,8 @@ a:hover {
 
 @media only screen and (max-width: 375px) {
     #rep-square {
-        background: none;
-        background-color: #79d2fc;
-        height: auto
+        height: auto;
+            background-image: url(../images/about/about-3%20mini.png)
     }
     .ar-logo img {
         width: 35%;
@@ -1401,9 +1400,8 @@ a:hover {
 
 @media only screen and (max-width: 360px) {
     #rep-square {
-        background: none;
-        background-color: #79d2fc;
-        height: auto
+        height: auto;
+            background-image: url(../images/about/about-3%20mini.png)
     }
     .banner {
         margin-top: 0
@@ -1426,9 +1424,8 @@ a:hover {
 
 @media only screen and (max-width: 320px) {
     #rep-square {
-        background: none;
-        background-color: #79d2fc;
-        height: auto
+        height: auto;
+        background-image: url(../images/about/about-3%20mini.png)
     }
     .banner {
         margin-top: 0
