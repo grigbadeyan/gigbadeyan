@@ -1244,9 +1244,24 @@ a:hover {
     height: 95vh
 }
 
+.banner {
+    height: auto;
+    margin-top: 25vh;
+    background-color: rgba(121, 210, 252, 0.58);
+    border-radius: 200px
+
+}
 
 .section-1 {
     margin-top: 50px;
+    text-align: center;
+
+}
+
+.ar-logo img {
+    width: 20vh;
+    margin-top: 100px;
+    margin-left: 50px;
     text-align: center;
 
 }
@@ -1261,7 +1276,7 @@ a:hover {
 }
 
 .section-2 p {
-    font-size: 26px;
+    font-size: 4vh;
     color: black;
     margin-top: 1em;
     text-shadow: 1px 1px 2px white,
@@ -1271,178 +1286,152 @@ a:hover {
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
 
+}
+
+
+.section-2 p {
+    line-height: 2;
+    font-size: 30px;
+    margin-top: 3vh;
 
 }
 
-@media only screen and (min-width: 1024px) {
-    .bg-one {            
-    background-image: url(../images/backgrounds/1.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: white;
+
+
+@media only screen and (max-width: 1024px) {
+    #rep-square {
+        height: auto
+    } .banner {
+        margin-top: 0;
+                border-radius: 0
 
     } .ar-logo img {
         width: 200px;
-        margin-top: 0;
-        text-align: center
-    }
-    .section-2 .text {
-        width: 70%
-    }
-    .section-2 p {
-        line-height: 2;
-        font-size: 30px;
-        margin-top: 3vh;
-
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    .ar-logo img {
-        width: 130%;
-        margin-top: 0;
-    }
-    .section-2 .text {
+        margin-top: 2.5vh
+    }   .section-2 .text {
         width: 90%;
-    }
+    }   .section-2 p {
+        line-height: 1.9;
+    }   
 
-
-    .section-2 p {
-        line-height: 2;
-        font-size: 35px;
-        margin-top: 3vh;
-
-
-
-    }
 }
-
 @media only screen and (max-width: 768px) {
-    .ar-logo img {
-
-        width: 250px;
+     #rep-square {
+        height: auto; 
+        background-position:center
+    } .banner {
         margin-top: 0;
-    }
-    .section-2 .text {
-        height: auto;
-        width: 100%;
+        border-radius: 0
+    } .ar-logo img {
+        width: 15vh;
         text-align: center;
-    }
-    .section-2 p {
-        line-height: 2;
-        margin-top: 6vh;
-        font-size: 30px;
-    }
-
-}
-
-@media only screen and (max-width: 600px) {
-    #rep-square {
-        background-image: url(../images/about/responsive.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-
-    .section-2 p {
-        margin-top: 2vh;
-        line-height: 2;
-        font-size: 20px;
-
-    }
+        
+    }   .section-2 .text {
+        width: 90%;
+    }   .section-2 p {
+        line-height: 1.9;
+        font-size: 25px
+    }   
 }
 
 @media only screen and (max-width: 414px) {
     #rep-square {
-        background-image: url(../images/about/responsive.jpg);
-        background-size: cover;
-        background-position: center;
+        background: none;
+        background-color: #79d2fc;
+        height: auto
+    }.section .text {
+        width: 100%
     }
+    
     .section-2 p {
         margin-top: 0;
-        line-height: 1.5;
+        line-height: 1.7;
         font-size: 20px
-    }
-    .ar-logo img {
-        width: 30%;
-        margin-top: 0
-    }
-}
-
-@media only screen and (max-width: 412px) {
-    #rep-square {
-        background-image: url(../images/about/responsive.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-
-
-    .section-2 p {
+    } 
+    .ar-logo img{
+        width: 25%;
         margin-top: 0;
-        line-height: 1.5;
-        font-size: 20px
-    }
-    .ar-logo img {
-        width: 30%;
+        margin-left:0;
+        text-align: center;
+    }.banner {
         margin-top: 0
     }
+    
 }
+
 
 
 @media only screen and (max-width: 375px) {
     #rep-square {
-        background-image: url(../images/about/responsive.jpg);
-        background-size: cover;
-        background-position: center;
+        background: none;
+        background-color: #79d2fc;
+        height: auto
     }
     .ar-logo img {
         width: 35%;
         margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+
+    }.section-2 .text {
+        width: 100%
     }
     .section-2 p {
         margin-top: 0;
         line-height: 1.7;
         font-size: 18px
+    }.banner {
+        margin-top: 0
     }
 
 }
 
 @media only screen and (max-width: 360px) {
     #rep-square {
-        background-image: url(../images/about/responsive.jpg);
-        background-size: cover;
-        background-position: center;
+        background: none;
+        background-color: #79d2fc;
+        height: auto
+    }    .banner {
+        margin-top: 0
     }
+
     .section-2 p {
         margin-top: 0;
-        line-height: 1.5;
-        font-size: 19px
+        line-height: 1.7;
+        font-size: 18px
+    }        
     }
     .ar-logo img {
-        width: 35%;
-        margin-top: 0
+        margin-top: 20px;
+        text-align: center;
+
     }
 }
 
 @media only screen and (max-width: 320px) {
     #rep-square {
-        background-image: url(../images/about/responsive.jpg);
-        background-size: cover;
-        background-position: center;
+        background: none;
+        background-color: #79d2fc;
+        height: auto
+    }
+    .banner {
+        margin-top: 0
     }
 
     .section-2 p {
         margin-top: 0;
         line-height: 1.5;
-        font-size: 17px
+        font-size: 18px
     }
     .ar-logo img {
-        width: 30%;
+        width: 15vh;
         margin-top: 0;
+        text-align: center;
+
     }
 }
 
-*/ .bg-one {
+.bg-one {
     background-image: url(../images/backgrounds/1.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -1450,7 +1439,6 @@ a:hover {
     background-color: white;
 
 }
-
 @media only screen and (max-width: 479px) {
     .bg-one {
         background: none;
