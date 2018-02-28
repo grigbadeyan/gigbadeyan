@@ -7,6 +7,8 @@ body {
     background-color: rgba(221, 221, 221, 0.77);
     color: #ffffff;
     -webkit-font-smoothing: antialiased;
+    font-family: 'Lato', sans-serif;!important
+    font-family: 'Montserrat', sans-serif;!important
 }
 
 .black {
@@ -1249,7 +1251,6 @@ a:hover {
     margin-top: 25vh;
     background-color: rgba(121, 210, 252, 0.58);
     border-radius: 200px
-
 }
 
 .section-1 {
@@ -1283,8 +1284,8 @@ a:hover {
     1px -1px 2px white,
     -1px 1px 2px white,
     -1px -1px 2px white;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif; !important
+    font-family: 'Montserrat', sans-serif;!important
 
 }
 
@@ -1301,37 +1302,45 @@ a:hover {
 @media only screen and (max-width: 1024px) {
     #rep-square {
         height: auto
-    } .banner {
-        margin-top: 0;
-                border-radius: 0
-
-    } .ar-logo img {
-        width: 200px;
-        margin-top: 2.5vh
-    }   .section-2 .text {
-        width: 90%;
-    }   .section-2 p {
-        line-height: 1.9;
-    }   
-
-}
-@media only screen and (max-width: 768px) {
-     #rep-square {
-        height: auto; 
-        background-position:center
-    } .banner {
+    }
+    .banner {
         margin-top: 0;
         border-radius: 0
-    } .ar-logo img {
+    }
+    .ar-logo img {
+        width: 200px;
+        margin-top: 2.5vh
+    }
+    .section-2 .text {
+        width: 90%;
+    }
+    .section-2 p {
+        line-height: 1.9;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    #rep-square {
+        height: auto;
+        background-position: center
+    }
+    .banner {
+        margin-top: 0;
+        border-radius: 0
+    }
+    .ar-logo img {
         width: 15vh;
         text-align: center;
-        
-    }   .section-2 .text {
+
+    }
+    .section-2 .text {
         width: 90%;
-    }   .section-2 p {
+    }
+    .section-2 p {
         line-height: 1.9;
         font-size: 25px
-    }   
+    }
 }
 
 @media only screen and (max-width: 414px) {
@@ -1339,24 +1348,26 @@ a:hover {
         background: none;
         background-color: #79d2fc;
         height: auto
-    }.section .text {
+    }
+    .section .text {
         width: 100%
     }
-    
+
     .section-2 p {
         margin-top: 0;
         line-height: 1.7;
         font-size: 20px
-    } 
-    .ar-logo img{
+    }
+    .ar-logo img {
         width: 25%;
         margin-top: 0;
-        margin-left:0;
+        margin-left: 0;
         text-align: center;
-    }.banner {
+    }
+    .banner {
         margin-top: 0
     }
-    
+
 }
 
 
@@ -1373,14 +1384,16 @@ a:hover {
         margin-left: 0;
         text-align: center;
 
-    }.section-2 .text {
+    }
+    .section-2 .text {
         width: 100%
     }
     .section-2 p {
         margin-top: 0;
         line-height: 1.7;
         font-size: 18px
-    }.banner {
+    }
+    .banner {
         margin-top: 0
     }
 
@@ -1391,7 +1404,8 @@ a:hover {
         background: none;
         background-color: #79d2fc;
         height: auto
-    }    .banner {
+    }
+    .banner {
         margin-top: 0
     }
 
@@ -1399,13 +1413,15 @@ a:hover {
         margin-top: 0;
         line-height: 1.7;
         font-size: 18px
-    }        
     }
-    .ar-logo img {
-        margin-top: 20px;
-        text-align: center;
+}
 
-    }
+.ar-logo img {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
 }
 
 @media only screen and (max-width: 320px) {
@@ -1439,6 +1455,7 @@ a:hover {
     background-color: white;
 
 }
+
 @media only screen and (max-width: 479px) {
     .bg-one {
         background: none;
@@ -1510,8 +1527,8 @@ p.art {
 p.art span {
     color: #7e7e7e;
     font-weight: bold;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif; !important
+    font-family: 'Montserrat', sans-serif;!important
 
 }
 
@@ -1524,8 +1541,8 @@ h4,
 h5,
 h6,
 span {
-    font-family: 'Lato', sans-serif;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;!important
+    font-family: 'Montserrat', sans-serif;!important
 }
 
 
