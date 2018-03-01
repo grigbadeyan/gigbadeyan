@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
 html {
     background-color: rgba(221, 221, 221, 0.77);
     color: #737f8a;
@@ -7,8 +9,8 @@ body {
     background-color: rgba(221, 221, 221, 0.77);
     color: #ffffff;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Lato', sans-serif;!important
-    font-family: 'Montserrat', sans-serif;!important
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .black {
@@ -1220,11 +1222,6 @@ a:hover {
 }
 
 
-
-
-
-/*# sourceMappingURL=maps/style.css.map */
-
 .language {
     height: 1.5em;
     width: 1.5em
@@ -1249,7 +1246,7 @@ a:hover {
 .banner {
     height: auto;
     margin-top: 25vh;
-    background-color: rgba(121, 210, 252, 0.58);
+    background-color: rgba(137, 137, 137, 0.58);
     border-radius: 200px
 }
 
@@ -1284,8 +1281,8 @@ a:hover {
     1px -1px 2px white,
     -1px 1px 2px white,
     -1px -1px 2px white;
-    font-family: 'Lato', sans-serif; !important
-    font-family: 'Montserrat', sans-serif;!important
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -1347,7 +1344,7 @@ a:hover {
 @media only screen and (max-width: 414px) {
     #rep-square {
         height: auto;
-            background-image: url(../images/about/about-3%20mini.png)
+        background-image: url(../images/about/about-3%20mini.png)
     }
     .section .text {
         width: 100%
@@ -1375,7 +1372,7 @@ a:hover {
 @media only screen and (max-width: 375px) {
     #rep-square {
         height: auto;
-            background-image: url(../images/about/about-3%20mini.png)
+        background-image: url(../images/about/about-3%20mini.png)
     }
     .ar-logo img {
         width: 35%;
@@ -1401,7 +1398,7 @@ a:hover {
 @media only screen and (max-width: 360px) {
     #rep-square {
         height: auto;
-            background-image: url(../images/about/about-3%20mini.png)
+        background-image: url(../images/about/about-3%20mini.png)
     }
     .banner {
         margin-top: 0
@@ -1524,8 +1521,8 @@ p.art {
 p.art span {
     color: #7e7e7e;
     font-weight: bold;
-    font-family: 'Lato', sans-serif; !important
-    font-family: 'Montserrat', sans-serif;!important
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -1538,8 +1535,8 @@ h4,
 h5,
 h6,
 span {
-    font-family: 'Lato', sans-serif;!important
-    font-family: 'Montserrat', sans-serif;!important
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
