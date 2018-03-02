@@ -9,8 +9,8 @@ body {
     background-color: rgba(221, 221, 221, 0.77);
     color: #ffffff;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', arial, verdana, sans-serif; !important
+    font-family: 'Open Sans',arial, verdana, sans-serif !important
 }
 
 .black {
@@ -1281,8 +1281,8 @@ a:hover {
     1px -1px 2px white,
     -1px 1px 2px white,
     -1px -1px 2px white;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', arial, verdana, sans-serif; !important
+    font-family: 'Open Sans',arial, verdana, sans-serif !important
 
 }
 
@@ -1521,8 +1521,8 @@ p.art {
 p.art span {
     color: #7e7e7e;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', arial, verdana, sans-serif; !important
+    font-family: 'Open Sans',arial, verdana, sans-serif !important
 
 }
 
@@ -1535,8 +1535,8 @@ h4,
 h5,
 h6,
 span {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', arial, verdana, sans-serif; !important
+    font-family: 'Open Sans',arial, verdana, sans-serif !important
 }
 
 
