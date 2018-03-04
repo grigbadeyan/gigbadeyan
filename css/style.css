@@ -1446,8 +1446,9 @@ background-image: url(../images/blured/blur-one.jpg);
 
 @media only screen and (max-width: 479px) {
     .bg-two {
-        background: none;
-        background-color: #f2f1f1
+background-image: url(../images/blured/blur-one.jpg);
+    background-size: cover;
+    background-position: center center;
     }
 }
 
@@ -1461,9 +1462,12 @@ background-image: url(../images/blured/blur-one.jpg);
 
 @media only screen and (max-width: 479px) {
     .bg-three {
-        background: none;
-        background-color: #f2f1f1
-    }
+background-image: url(../images/blured/blur-one.jpg);
+    background-size: cover;
+    background-position: center center;
+    }.bg-three p.art {font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px}
 }
 
 .bg-four {
@@ -1477,7 +1481,9 @@ background-image: url(../images/blured/blur-one.jpg);
 
 @media only screen and (max-width: 479px) {
     .bg-four {
-        background-size: 
+background-image: url(../images/blured/blur-one.jpg);
+    background-size: cover;
+    background-position: center center;
     }
 }
 
