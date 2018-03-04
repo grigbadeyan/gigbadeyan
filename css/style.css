@@ -1,3 +1,4 @@
+
 html {
     background-color: rgba(221, 221, 221, 0.77);
     color: #737f8a;
@@ -14,7 +15,13 @@ body {
     color: black;
 }
 
+
+/*=================================================================
+  Basic Setup
+==================================================================*/
+
 ::-moz-selection {
+    /* Code for Firefox */
     color: #fff;
     background: #79d2fc;
 }
@@ -104,18 +111,22 @@ a:active {
 }
 
 .form-control::-webkit-input-placeholder {
+    /*  Chrome, Safari, Opera  */
     color: #ddd;
 }
 
 .form-control:-moz-placeholder {
+    /* Firefox 18- */
     color: #ddd;
 }
 
 .form-control::-moz-placeholder {
+    /* Firefox 19+ */
     color: #ddd;
 }
 
 .form-control:-ms-input-placeholder {
+    /*  Internet Explorer  */
     color: #ddd;
 }
 
@@ -181,6 +192,8 @@ a:active {
 .btn:focus {
     outline: 0;
 }
+
+
 
 .bg-dark {
     background: rgba(162, 162, 162, 0.92);
@@ -255,13 +268,13 @@ a:hover {
     padding: 100px 0;
 }
 
-@media (max-width:480px) {
+@media (max-width: 480px) {
     .section {
         padding: 50px 0;
     }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .section {
         padding: 50px 0;
     }
@@ -295,6 +308,7 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 .sk-cube-grid {
     width: 40px;
@@ -387,6 +401,7 @@ a:hover {
 }
 
 .title h2 {
+
     font-weight: 700;
     font-size: 38px;
     color: #fff;
@@ -439,6 +454,8 @@ a:hover {
     outline: none;
 }
 
+/* CSS mfp-with-zoom class */
+
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
     opacity: 0;
@@ -458,12 +475,20 @@ a:hover {
     opacity: 0;
 }
 
+
+
+
+/*=================================================================
+  Navigation
+==================================================================*/
+
 .navigation {
     background-color: #1d2024;
     width: 100%;
     z-index: 99;
     margin-bottom: 0;
     padding: 10px;
+
 }
 
 .navigation .logo {
@@ -471,6 +496,7 @@ a:hover {
     padding: 0;
     margin-top: 14px;
     display: inline-block;
+
 }
 
 }
@@ -517,6 +543,9 @@ a:hover {
     background-attachment: fixed;
 }
 
+
+
+
 .dark-bg {
     background: rgba(0, 0, 0, 0.7);
     height: 100%;
@@ -525,6 +554,10 @@ a:hover {
     z-index: -1;
 }
 
+/*=================================================================
+  About us section
+==================================================================*/
+
 .about .block {
     background: rgba(162, 162, 162, 0.75);
     ;
@@ -532,7 +565,9 @@ a:hover {
     border-bottom: 2px solid transparent;
     transition: .5s all;
     margin-bottom: 20px;
+
 }
+
 
 .about .block .icon-box {
     position: relative;
@@ -581,6 +616,10 @@ a:hover {
     color: #afbac4;
 }
 
+/*=================================================================
+  About us 2 section
+==================================================================*/
+
 .about-2 {
     margin-top: -5px
 }
@@ -607,6 +646,10 @@ a:hover {
     font-weight: 600;
 }
 
+/*=================================================================
+ Call To Action 1
+==================================================================*/
+
 .call-to-action {
     background-attachment: fixed;
 }
@@ -624,6 +667,10 @@ a:hover {
 .call-to-action .btn-main {
     margin-top: 20px;
 }
+
+/*=================================================================
+ Call To Action 2
+==================================================================*/
 
 .call-to-action-2 {
     padding: 100px 0;
@@ -691,6 +738,7 @@ a:hover {
     margin-bottom: 20px;
 }
 
+
 .con-info span {
     float: left;
     font-size: 18px
@@ -706,10 +754,19 @@ a:hover {
     margin: -5px 0 0 15px;
 }
 
+
+
+
+
+/*=================================================================
+  Item counter section
+==================================================================*/
+
 .counters-item {
     padding: 25px 0;
     margin-bottom: 10px;
     background: rgba(41, 47, 54, 0);
+
 }
 
 .counters-item i {
@@ -729,6 +786,14 @@ a:hover {
     font-size: 20px;
     margin: 0;
 }
+
+/*=================================================================
+  Pricing section
+==================================================================*/
+
+/*=================================================================
+  Services section
+==================================================================*/
 
 .service-block {
     background: rgba(162, 162, 162, 0.81);
@@ -809,6 +874,12 @@ a:hover {
     display: none;
 }
 
+/* end of body settings */
+
+/*=================================================================
+  Services section 2
+==================================================================*/
+
 .service-2 .service-item {
     border: 1px solid #eee;
     margin-bottom: 30px;
@@ -840,10 +911,17 @@ a:hover {
     transition: all 0.3s ease 0s;
 }
 
+
+/*=================================================================
+  Our Team
+==================================================================*/
+
 .team-member {
+
     background-color: rgba(162, 162, 162, 0.76);
     margin-bottom: 10px;
     box-shadow: 2px 0px 5px rgba(44, 44, 44, 0.3);
+
 }
 
 .team-member:hover .mask {
@@ -857,9 +935,10 @@ a:hover {
 .member-photo {
     overflow: hidden;
     position: relative;
+
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .member-photo {
         text-align: center;
     }
@@ -874,7 +953,7 @@ a:hover {
     transition: all 0.4s ease 0s;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .member-photo img {
         display: inline-block;
     }
@@ -893,12 +972,14 @@ a:hover {
     transition: all .5s ease-out 0s;
     -webkit-transform: rotateY(180deg) scale(0.5, 0.5);
     transform: rotateY(180deg) scale(0.5, 0.5);
+
 }
 
 .member-photo .mask ul {
     text-align: center;
     position: relative;
     top: 125px;
+
 }
 
 .member-photo .mask ul li a {
@@ -910,16 +991,19 @@ a:hover {
     line-height: 35px;
     text-align: center;
     width: 35px;
+
 }
 
 .member-photo .mask ul li a:hover {
     background-color: #fff;
     color: rgba(121, 210, 252, 0.56);
     border: 1px solid transparent;
+
 }
 
 .tours-meta {
     padding: 15px;
+
 }
 
 .tours-meta h4 {
@@ -941,6 +1025,10 @@ a:hover {
     font-weight: bold;
 }
 
+/*=================================================================
+  Testimonial section
+==================================================================*/
+
 .testimonial:before {
     background: rgba(42, 48, 55, 0.7);
 }
@@ -950,7 +1038,7 @@ a:hover {
     width: 45%;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .client-info {
         width: 90%;
     }
@@ -1040,6 +1128,12 @@ a:hover {
     margin: 10px;
 }
 
+
+
+/*=================================================================
+  Footer section
+==================================================================*/
+
 .social-icon {
     padding: 60px 0 35px;
 }
@@ -1077,7 +1171,7 @@ a:hover {
     transition: all 400ms ease-out 0s;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .social-icon ul li a {
         width: 55px;
         height: 55px;
@@ -1097,12 +1191,13 @@ a:hover {
     transition: all 400ms ease-out 0s;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .social-icon ul li a i {
         line-height: 55px;
         font-size: 25px;
     }
 }
+
 
 .language {
     height: 1.5em;
@@ -1113,6 +1208,8 @@ a:hover {
 #content h2 {
     color: #000000
 }
+
+
 
 #rep-square {
     background-image: url(../images/about/about-3.jpg);
@@ -1133,6 +1230,7 @@ a:hover {
 .section-1 {
     margin-top: 50px;
     text-align: center;
+
 }
 
 .ar-logo img {
@@ -1140,6 +1238,7 @@ a:hover {
     margin-top: 100px;
     margin-left: 50px;
     text-align: center;
+
 }
 
 .section-2 .text {
@@ -1160,15 +1259,20 @@ a:hover {
     -1px 1px 2px white,
     -1px -1px 2px white;
     font-family: Montserrat, sans-serif !important
+
 }
+
 
 .section-2 p {
     line-height: 2;
     font-size: 30px;
     margin-top: 3vh;
+
 }
 
-@media only screen and (max-width:1024px) {
+
+
+@media only screen and (max-width: 1024px) {
     #rep-square {
         height: auto
     }
@@ -1186,9 +1290,10 @@ a:hover {
     .section-2 p {
         line-height: 1.9;
     }
+
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
     #rep-square {
         height: auto;
         background-position: center
@@ -1196,10 +1301,12 @@ a:hover {
     .banner {
         margin-top: 0;
         border-radius: 0;
+
     }
     .ar-logo img {
         width: 15vh;
         text-align: center;
+
     }
     .section-2 .text {
         width: 90%;
@@ -1210,7 +1317,7 @@ a:hover {
     }
 }
 
-@media only screen and (max-width:414px) {
+@media only screen and (max-width: 414px) {
     #rep-square {
         height: auto;
         background-image: url(../images/about/about-3%20mini.png)
@@ -1218,6 +1325,7 @@ a:hover {
     .section .text {
         width: 100%
     }
+
     .section-2 p {
         margin-top: 0;
         line-height: 1.7;
@@ -1232,9 +1340,12 @@ a:hover {
     .banner {
         margin-top: 0
     }
+
 }
 
-@media only screen and (max-width:375px) {
+
+
+@media only screen and (max-width: 375px) {
     #rep-square {
         height: auto;
         background-image: url(../images/about/about-3%20mini.png)
@@ -1244,6 +1355,7 @@ a:hover {
         margin-top: 0;
         margin-left: 0;
         text-align: center;
+
     }
     .section-2 .text {
         width: 100%
@@ -1256,9 +1368,10 @@ a:hover {
     .banner {
         margin-top: 0
     }
+
 }
 
-@media only screen and (max-width:360px) {
+@media only screen and (max-width: 360px) {
     #rep-square {
         height: auto;
         background-image: url(../images/about/about-3%20mini.png)
@@ -1266,6 +1379,7 @@ a:hover {
     .banner {
         margin-top: 0
     }
+
     .section-2 p {
         margin-top: 0;
         line-height: 1.7;
@@ -1276,11 +1390,12 @@ a:hover {
 .ar-logo img {
     margin-top: 20px;
     text-align: center;
-}
 
 }
 
-@media only screen and (max-width:320px) {
+}
+
+@media only screen and (max-width: 320px) {
     #rep-square {
         height: auto;
         background-image: url(../images/about/about-3%20mini.png)
@@ -1288,6 +1403,7 @@ a:hover {
     .banner {
         margin-top: 0
     }
+
     .section-2 p {
         margin-top: 0;
         line-height: 1.5;
@@ -1297,6 +1413,7 @@ a:hover {
         width: 15vh;
         margin-top: 0;
         text-align: center;
+
     }
 }
 
@@ -1306,13 +1423,15 @@ a:hover {
     background-size: contain;
     background-position: center;
     background-color: white;
+
 }
 
-@media only screen and (max-width:479px) {
+@media only screen and (max-width: 479px) {
     .bg-one {
-        background-image: url(../images/blured/blur-one.jpg);
-        background-size: cover;
-        background-position: center center;
+background-image: url(../images/blured/blur-one.jpg);
+    background-size: cover;
+    background-position: center center;
+            
     }
 }
 
@@ -1322,13 +1441,14 @@ a:hover {
     background-size: contain;
     background-position: center;
     background-color: white;
+
 }
 
-@media only screen and (max-width:479px) {
+@media only screen and (max-width: 479px) {
     .bg-two {
-        background-image: url(../images/blured/blur-one.jpg);
-        background-size: cover;
-        background-position: center center;
+background-image: url(../images/blured/blur-one.jpg);
+    background-size: cover;
+    background-position: center center;
     }
 }
 
@@ -1340,17 +1460,14 @@ a:hover {
     background-color: white;
 }
 
-@media only screen and (max-width:479px) {
+@media only screen and (max-width: 479px) {
     .bg-three {
-        background-image: url(../images/blured/blur-one.jpg);
-        background-size: cover;
-        background-position: center center;
-    }
-    .bg-three p.art {
-        font-size: 25px;
-        padding-left: 10px;
-        padding-right: 10px
-    }
+background-image: url(../images/blured/blur-one.jpg);
+    background-size: cover;
+    background-position: center center;
+    }.bg-three p.art {font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px}
 }
 
 .bg-four {
@@ -1359,13 +1476,14 @@ a:hover {
     background-size: contain;
     background-position: center;
     background-color: white;
+
 }
 
-@media only screen and (max-width:479px) {
+@media only screen and (max-width: 479px) {
     .bg-four {
-        background-image: url(../images/blured/blur-one.jpg);
-        background-size: cover;
-        background-position: center center;
+background-image: url(../images/blured/blur-one.jpg);
+    background-size: cover;
+    background-position: center center;
     }
 }
 
@@ -1373,18 +1491,23 @@ a:hover {
     background-color: white;
 }
 
+
 .text-hero p,
 p.art {
     font-size: 40px;
     color: white;
     font-weight: bold;
+
+
 }
 
 p.art span {
     color: #7e7e7e;
     font-weight: bold;
-    font-family: Montserrat, sans-serif !important
+        font-family: Montserrat, sans-serif !important
+
 }
+
 
 p,
 h1,
@@ -1394,10 +1517,13 @@ h4,
 h5,
 h6,
 span {
-    font-family: Montserrat, sans-serif !important
+        font-family: Montserrat, sans-serif !important
 }
 
+
+
 .btn {
+
     background-color: rgba(255, 255, 255, 0.19);
     font-weight: bolder;
     color: #fff;
@@ -1409,11 +1535,12 @@ span {
     font-size: 20px
 }
 
-@media only screen and (max-width:479px) {
+@media only screen and (max-width: 479px) {
     .btn {
         font-size: 2vh
     }
 }
+
 
 .btn:hover {
     background-color: rgba(171, 174, 175, 0.53);
@@ -1421,11 +1548,15 @@ span {
     border-style: inset;
     border-width: 1px;
     border-color: bisque;
+
 }
 
 .btn:focus {
     color: #fff;
 }
+
+
+
 
 .text-hero {
     padding-top: 1.5vh;
@@ -1434,11 +1565,14 @@ span {
     background-color: rgba(199, 199, 199, 0.56);
     font-size: 7vh;
     height: auto;
+
 }
 
-@media only screen and (max-width:1024px) {
+
+@media only screen and (max-width: 1024px) {
     .text-hero {
         margin-bottom: 60vh;
+
     }
     .text-hero p {
         font-size: 5vh
@@ -1448,34 +1582,41 @@ span {
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
     .text-hero {
         margin-bottom: 50vh;
+
     }
     .text-hero p {
         font-size: 6vh
     }
 }
 
-@media only screen and (max-width:375px) {
+
+
+@media only screen and (max-width: 375px) {
     .text-hero {
         margin-bottom: 50vh;
+
     }
     .text-hero p {
         font-size: 5vh
     }
 }
 
-@media only screen and (max-width:360px) {
+
+@media only screen and (max-width: 360px) {
     .text-hero {
         margin-bottom: 45vh;
+
     }
     .text-hero p {
         font-size: 5vh
     }
 }
 
-@media only screen and (max-width:320px) {
+
+@media only screen and (max-width: 320px) {
     .text-hero {
         margin-bottom: 41vh;
         font-size: 5vh
@@ -1487,6 +1628,12 @@ span {
         font-size: 15px
     }
 }
+
+
+
+/* ==================================================
+  Hero Styling
+================================================== */
 
 .hero {
     background-position: center;
@@ -1519,6 +1666,8 @@ span {
     vertical-align: middle;
     width: 100%;
 }
+
+
 
 @keyframes filling {
     from {
