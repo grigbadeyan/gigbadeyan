@@ -171,9 +171,6 @@ a:active {
     background-color: #57cbcc;
 }
 
-.color {
-    color: #6CB670;
-}
 
 .sub-title {
     padding: 0 0 50px;
@@ -196,7 +193,7 @@ a:active {
 
 
 .bg-dark {
-    background: rgba(162, 162, 162, 0.92);
+    background: rgb(42, 42, 42);
 }
 
 .parallax-section {
@@ -424,7 +421,7 @@ a:hover {
 }
 
 .section-bg {
-    background: rgba(41, 41, 41, 0.8);
+    background-color: #1d2024;
     ;
 }
 
@@ -559,8 +556,12 @@ a:hover {
 ==================================================================*/
 
 .about .block {
-    background: rgba(162, 162, 162, 0.75);
-    ;
+    background: rgba(162, 162, 162, 0);
+    text-shadow: 1px 1px 1px black,
+    1px -1px 1px black,
+    -1px 1px 1px black,
+    -1px -1px 1px black;
+
     padding: 30px;
     border-bottom: 2px solid transparent;
     transition: .5s all;
@@ -585,6 +586,7 @@ a:hover {
     transition-property: -webkit-transform;
     transition-property: transform;
     transition-property: transform, -webkit-transform;
+    
 }
 
 .about .block .icon-box:after,
@@ -668,61 +670,14 @@ a:hover {
     margin-top: 20px;
 }
 
-/*=================================================================
- Call To Action 2
-==================================================================*/
-
-.call-to-action-2 {
-    padding: 100px 0;
-    background-image: url("../images/call-to-action/call-to-action-bg.jpg");
-    background-size: cover;
-    color: #fff;
-}
-
-.call-to-action-2 h2 {
-    line-height: 1.5;
-}
-
-.call-to-action-2 p {
-    color: #fff;
-}
-
-.call-to-action-2 .btn-main {
-    margin-top: 20px;
-}
 
 .contact-us {
     padding-top: 50px;
 }
 
-.contact-form {
-    margin-bottom: 60px;
-}
 
-.contact-form .form-control {
-    background-color: rgba(162, 162, 162, 0.92);
-    border: 1px solid rgba(236, 239, 241, 0.07);
-    height: 45px;
-}
 
-.contact-form textarea.form-control {
-    padding: 10px;
-    height: 120px;
-}
 
-.contact-form input:hover,
-.contact-form textarea:hover,
-#contact-submit:hover {
-    border-color: #57cbcc;
-}
-
-#contact-submit {
-    border: 1px solid rgba(236, 239, 241, 0.07);
-    background: #57cbcc;
-    padding: 12px 0;
-    width: 100%;
-    margin: 0;
-}
 
 .s-google-map,
 .s-google-map .s-google-container {
@@ -766,6 +721,11 @@ a:hover {
     padding: 25px 0;
     margin-bottom: 10px;
     background: rgba(41, 47, 54, 0);
+    text-shadow: 1px 1px 1px black,
+    1px -1px 1px black,
+    -1px 1px 1px black,
+    -1px -1px 1px black;
+
 
 }
 
@@ -773,6 +733,7 @@ a:hover {
     margin-bottom: 10px;
     font-size: 40px;
     display: inline-block;
+    
 }
 
 .counters-item span {
@@ -780,6 +741,7 @@ a:hover {
     font-weight: bold;
     font-size: 35px;
     line-height: 50px;
+    
 }
 
 .counters-item h3 {
@@ -796,21 +758,25 @@ a:hover {
 ==================================================================*/
 
 .service-block {
-    background: rgba(162, 162, 162, 0.81);
     padding: 60px 20px;
-    border-left: 1px solid rgba(236, 239, 241, 0.07);
-    border-top: 1px solid rgba(236, 239, 241, 0.07);
     margin-bottom: 40px;
-    box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3);
+    text-shadow: 1px 1px 1px black,
+    1px -1px 1px black,
+    -1px 1px 1px black,
+    -1px -1px 1px black;
+
+    
 }
 
 .service-block p {
-    font-size: 17px
+    font-size: 17px;
+
 }
 
 .service-block .service-icon {
     margin-bottom: 10px;
     font-size: 50px;
+
 }
 
 .question {
@@ -1217,14 +1183,15 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
+    margin-top: -30px;
     height: 95vh
 }
 
-.banner {
-    height: auto;
-    margin-top: 25vh;
-    background-color: rgba(137, 137, 137, 0.58);
-    border-radius: 200px
+.banner {    height: auto;
+
+    margin-top: 45vh;
+    background-color: rgba(137, 137, 137, 0.44);
+
 }
 
 .section-1 {
@@ -1234,9 +1201,9 @@ a:hover {
 }
 
 .ar-logo img {
-    width: 20vh;
+    width: 17vh;
     margin-top: 100px;
-    margin-left: 50px;
+    margin-left: 75px;
     text-align: center;
 
 }
@@ -1244,7 +1211,7 @@ a:hover {
 .section-2 .text {
     height: auto;
     text-align: center;
-    line-height: 2;
+    line-height: 1.5;
     font-weight: bold;
     margin-top: 0;
     float: right
@@ -1258,17 +1225,14 @@ a:hover {
     1px -1px 2px white,
     -1px 1px 2px white,
     -1px -1px 2px white;
+    line-height: 1.5;
+    font-size: 30px;
+    margin-top: 3vh;
     font-family: Montserrat, sans-serif !important
 
 }
 
 
-.section-2 p {
-    line-height: 2;
-    font-size: 30px;
-    margin-top: 3vh;
-
-}
 
 
 
@@ -1281,15 +1245,18 @@ a:hover {
         border-radius: 0
     }
     .ar-logo img {
-        width: 200px;
-        margin-top: 2.5vh
+        width: 180px;
+        margin-top: 10px;
+        margin-left: 70px
+    
     }
     .section-2 .text {
         width: 90%;
     }
     .section-2 p {
-        line-height: 1.9;
-    }
+        line-height: 2;
+        font-size: 22px
+    }.bg-1 {background-image:url(../images/backgrounds/bg-1%20croped.jpg)}
 
 }
 
@@ -1306,14 +1273,15 @@ a:hover {
     .ar-logo img {
         width: 15vh;
         text-align: center;
+        margin-left: 60px
 
     }
     .section-2 .text {
         width: 90%;
     }
     .section-2 p {
-        line-height: 1.9;
-        font-size: 25px
+        line-height: 1.5;
+        font-size: 22px
     }
 }
 
@@ -1418,9 +1386,9 @@ a:hover {
 }
 
 .bg-one {
-    background-image: url(../images/backgrounds/1.png);
+    background-image: url(../images/backgrounds/1.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-color: white;
 
@@ -1428,7 +1396,6 @@ a:hover {
 
 @media only screen and (max-width: 479px) {
     .bg-one {
-background-image: url(../images/blured/blur-one.jpg);
     background-size: cover;
     background-position: center center;
             
@@ -1438,7 +1405,7 @@ background-image: url(../images/blured/blur-one.jpg);
 .bg-two {
     background-image: url(../images/backgrounds/2.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-color: white;
 
@@ -1446,25 +1413,23 @@ background-image: url(../images/blured/blur-one.jpg);
 
 @media only screen and (max-width: 479px) {
     .bg-two {
-background-image: url(../images/blured/blur-one.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     }
 }
 
 .bg-three {
     background-image: url(../images/backgrounds/3.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-color: white;
 }
 
 @media only screen and (max-width: 479px) {
     .bg-three {
-background-image: url(../images/blured/blur-one.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     }.bg-three p.art {font-size: 25px;
     padding-left: 10px;
     padding-right: 10px}
@@ -1473,7 +1438,7 @@ background-image: url(../images/blured/blur-one.jpg);
 .bg-four {
     background-image: url(../images/backgrounds/4.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-color: white;
 
@@ -1481,9 +1446,8 @@ background-image: url(../images/blured/blur-one.jpg);
 
 @media only screen and (max-width: 479px) {
     .bg-four {
-background-image: url(../images/blured/blur-one.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     }
 }
 
@@ -1502,9 +1466,14 @@ p.art {
 }
 
 p.art span {
-    color: #7e7e7e;
+    color: #ffffff;
+        text-shadow: 1px 1px 1px black,
+    1px -1px 1px black,
+    -1px 1px 1px black,
+    -1px -1px 1px black;
+
     font-weight: bold;
-        font-family: Montserrat, sans-serif !important
+    font-family: Montserrat, sans-serif !important
 
 }
 
