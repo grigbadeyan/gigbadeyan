@@ -8,7 +8,7 @@ body {
     background-color: rgba(221, 221, 221, 0.77);
     color: #ffffff;
     -webkit-font-smoothing: antialiased;
-    font-family: Montserrat, sans-serif !important
+    font-family: Montserrat, sans-serif 
 }
 
 .black {
@@ -1228,7 +1228,7 @@ a:hover {
     line-height: 1.5;
     font-size: 30px;
     margin-top: 3vh;
-    font-family: Montserrat, sans-serif !important
+    font-family: Montserrat, sans-serif
 
 }
 
@@ -1473,7 +1473,7 @@ p.art span {
     -1px -1px 1px black;
 
     font-weight: bold;
-    font-family: Montserrat, sans-serif !important
+    font-family: Montserrat, sans-serif
 
 }
 
@@ -1486,7 +1486,7 @@ h4,
 h5,
 h6,
 span {
-        font-family: Montserrat, sans-serif !important
+        font-family: Montserrat, sans-serif
 }
 
 
