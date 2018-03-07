@@ -60,7 +60,7 @@ a:hover {
 
 a:focus,
 a:hover {
-    color: #6CB670;
+    color: #57cbcc;
 }
 
 a:active {
@@ -239,7 +239,7 @@ a:hover {
 
 a:focus,
 a:hover {
-    color: #57cbcc;
+    color: #cfffff;
 }
 
 .btn-main {
@@ -775,7 +775,7 @@ a:hover {
 
 .service-block .service-icon {
     margin-bottom: 10px;
-    font-size: 50px;
+    font-size: 70px;
 
 }
 
@@ -890,13 +890,6 @@ a:hover {
 
 }
 
-.team-member:hover .mask {
-    cursor: pointer;
-    opacity: 1;
-    filter: alpha(opacity=100);
-    -webkit-transform: rotateY(0deg) scale(1, 1);
-    transform: rotateY(0deg) scale(1, 1);
-}
 
 .member-photo {
     overflow: hidden;
@@ -977,9 +970,6 @@ a:hover {
     font-weight: bold
 }
 
-.blue-font h4:hover {
-    color: rgb(127, 214, 255)
-}
 
 .tours-meta span {
     font-size: 12px;
@@ -1018,7 +1008,7 @@ a:hover {
 .client-thumb img {
     border-radius: 50%;
     margin: 0 auto;
-    max-width: 115px;
+    max-width: 180px;
     width: 100%;
 }
 
