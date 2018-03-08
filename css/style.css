@@ -485,6 +485,7 @@ a:hover {
     z-index: 99;
     margin-bottom: 0;
     padding: 10px;
+    border-radius: 0
 
 }
 
@@ -556,7 +557,6 @@ a:hover {
 ==================================================================*/
 
 .about .block {
-    background: rgba(162, 162, 162, 0);
     text-shadow: 1px 1px 1px black,
     1px -1px 1px black,
     -1px 1px 1px black,
@@ -565,7 +565,10 @@ a:hover {
     padding: 30px;
     border-bottom: 2px solid transparent;
     transition: .5s all;
-    margin-bottom: 20px;
+
+}
+#cars .container-fluid{
+        background-color: rgba(199, 199, 199, 0.56);
 
 }
 
@@ -725,8 +728,10 @@ a:hover {
     1px -1px 1px black,
     -1px 1px 1px black,
     -1px -1px 1px black;
+}
 
-
+#counter .container-fluid{
+    background-color: rgba(199, 199, 199, 0.56)
 }
 
 .counters-item i {
@@ -759,7 +764,6 @@ a:hover {
 
 .service-block {
     padding: 60px 20px;
-    margin-bottom: 40px;
     text-shadow: 1px 1px 1px black,
     1px -1px 1px black,
     -1px 1px 1px black,
@@ -769,13 +773,15 @@ a:hover {
 }
 
 .service-block p {
-    font-size: 17px;
+    font-size: 15px;
 
 }
-
+#tour-background{
+    background-color: rgba(199, 199, 199, 0.56);
+    height: auto
+}
 .service-block .service-icon {
-    margin-bottom: 10px;
-    font-size: 70px;
+    font-size: 50px;
 
 }
 
@@ -1518,19 +1524,21 @@ span {
 
 
 .text-hero {
-    padding-top: 1.5vh;
+    padding-top: 1vh;
     width: 100%;
-    margin-bottom: 70vh;
+    margin-bottom: 65vh;
     background-color: rgba(199, 199, 199, 0.56);
-    font-size: 7vh;
     height: auto;
 
 }
-
+.text-hero p {
+padding: 30px 30px;
+    font-size: 6vh
+}
 
 @media only screen and (max-width: 1024px) {
     .text-hero {
-        margin-bottom: 60vh;
+        margin-bottom: 55vh;
 
     }
     .text-hero p {
@@ -1543,7 +1551,8 @@ span {
 
 @media only screen and (max-width: 768px) {
     .text-hero {
-        margin-bottom: 50vh;
+        margin-bottom: 35vh;
+        padding-top: 0
 
     }
     .text-hero p {
@@ -1555,29 +1564,33 @@ span {
 
 @media only screen and (max-width: 375px) {
     .text-hero {
-        margin-bottom: 50vh;
+        margin-bottom: 45vh;
 
     }
     .text-hero p {
         font-size: 5vh
+    } .btn {
+        font-size: 3vh
     }
 }
 
 
 @media only screen and (max-width: 360px) {
     .text-hero {
-        margin-bottom: 45vh;
+        margin-bottom: 40vh;
 
     }
     .text-hero p {
         font-size: 5vh
+    }.btn{
+        font-size: 3vh
     }
 }
 
 
 @media only screen and (max-width: 320px) {
     .text-hero {
-        margin-bottom: 41vh;
+        margin-bottom: 35vh;
         font-size: 5vh
     }
     .text-hero p {
