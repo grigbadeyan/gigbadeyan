@@ -557,10 +557,6 @@ a:hover {
 ==================================================================*/
 
 .about .block {
-    text-shadow: 1px 1px 1px black,
-    1px -1px 1px black,
-    -1px 1px 1px black,
-    -1px -1px 1px black;
 
     padding: 30px;
     border-bottom: 2px solid transparent;
@@ -724,10 +720,6 @@ a:hover {
     padding: 25px 0;
     margin-bottom: 10px;
     background: rgba(41, 47, 54, 0);
-    text-shadow: 1px 1px 1px black,
-    1px -1px 1px black,
-    -1px 1px 1px black,
-    -1px -1px 1px black;
 }
 
 #counter .container-fluid{
@@ -764,18 +756,16 @@ a:hover {
 
 .service-block {
     padding: 60px 20px;
-    text-shadow: 1px 1px 1px black,
-    1px -1px 1px black,
-    -1px 1px 1px black,
-    -1px -1px 1px black;
 
     
 }
 
 .service-block p {
     font-size: 15px;
+    }
 
-}
+
+
 #tour-background{
     background-color: rgba(199, 199, 199, 0.56);
     height: auto
